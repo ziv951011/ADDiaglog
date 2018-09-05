@@ -1,8 +1,11 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.uuch.adlibrary">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.uuch.adlibrary">
 
-    <application android:allowBackup="true"
+    <application
         android:name=".LApplication"
-        >
+        tools:replace="android:allowBackup"
+        android:allowBackup="true">
 
     </application>
 
