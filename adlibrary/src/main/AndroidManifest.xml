@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.uuch.adlibrary">
 
+    <!--新增-->
     <application
         android:name=".LApplication"
         tools:replace="android:allowBackup"
